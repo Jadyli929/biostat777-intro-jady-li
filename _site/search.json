@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "data_analysis.html",
+    "href": "data_analysis.html",
+    "title": "Data Analysis",
+    "section": "",
+    "text": "Each person is composed of many types of emotions: fear, anger, happiness, sadness, etc. As we grow up, we might experiencing more complex and more diverse emotions. Without appropriate skills and abilities, we might lose control in dealing with our emotions and might have the risk of experiencing mental disorders.\nThe awareness that mental health is as important as physiological health is increasing in recent days. With the world developing so rapidly, there are improved treatments and diagnosis, as well as diverse services provided around world to help improve people’s mental well-being. In order to help better support human beings’ mental health, it is important to understand the trend of mental health status, so that better future treatments, policies, and services could be developed.\n\n\n\nInside Out 2(mintmovi3 2024)\n\n\n\n\n\n\n\n\nWarning\n\n\n\nPlease seek for external help from professionals if you are experiencing mental health crisis, or simply need more resources."
+  },
+  {
+    "objectID": "data_analysis.html#background",
+    "href": "data_analysis.html#background",
+    "title": "Data Analysis",
+    "section": "",
+    "text": "Each person is composed of many types of emotions: fear, anger, happiness, sadness, etc. As we grow up, we might experiencing more complex and more diverse emotions. Without appropriate skills and abilities, we might lose control in dealing with our emotions and might have the risk of experiencing mental disorders.\nThe awareness that mental health is as important as physiological health is increasing in recent days. With the world developing so rapidly, there are improved treatments and diagnosis, as well as diverse services provided around world to help improve people’s mental well-being. In order to help better support human beings’ mental health, it is important to understand the trend of mental health status, so that better future treatments, policies, and services could be developed.\n\n\n\nInside Out 2(mintmovi3 2024)\n\n\n\n\n\n\n\n\nWarning\n\n\n\nPlease seek for external help from professionals if you are experiencing mental health crisis, or simply need more resources."
+  },
+  {
+    "objectID": "data_analysis.html#research-question",
+    "href": "data_analysis.html#research-question",
+    "title": "Data Analysis",
+    "section": "Research Question:",
+    "text": "Research Question:\n\n1. What is the distribution of different types of mental health disorders around the world?\n\n\n2. Will the risk of having depression prevalence change by age?\n\n\n3. How does the risk of depression differ in different regions of the world?"
+  },
+  {
+    "objectID": "data_analysis.html#target-audience",
+    "href": "data_analysis.html#target-audience",
+    "title": "Data Analysis",
+    "section": "Target Audience:",
+    "text": "Target Audience:\nThe intended audience for this analysis are researchers who are interested in knowing the trend of mental health disorders around the world in order to better inform future policy-making and/or treatments."
+  },
+  {
+    "objectID": "data_analysis.html#about-data",
+    "href": "data_analysis.html#about-data",
+    "title": "Data Analysis",
+    "section": "About Data:",
+    "text": "About Data:\nLink to Data (Dattani 2023)\nThe original data comes from the website Our World in Data, a website where researchers aim to solve world-wise problems. The data frames analyzed here come from a specific blog How do researchers study the prevalence of mental illnesses? written by Saloni Dattani.\nTwo datasets are analyzed here: Prevalence by mental and substance & Prevalence of depression by age. In Prevalence by mental and substance, the dataset includes data about prevalence of common types of mental health disorders around the world from year 1990 to 2017. In Prevalence of depression by age, the dataset includes data about prevalence of depression among different age groups around the world from year 1990 to 2017.\n\nData Dictionary:\n\nData Frame 1: Prevalence by mental and substance\n\n\n\n\n\n\n\n\nEntity\nString\nUnique identifier for each country or region included in the data set\n\n\nCode\nString\nUnique code associated with an Entity/Country or region included in the data set\n\n\nYear\nInteger\nYear that the data about that particular Entity/Country was collected\n\n\nSchizophrenia (%)\nFloat\nPercentage of people with schizophrenia in that country/region during that year\n\n\nBipolar disorder (%)\nFloat\nPercentage of people with bipolar disorder in that country/region during that year\n\n\nEating disorders (%)\nFloat\nPercentage of people with eating disorders in that country/region during that year\n\n\nAnxiety disorders (%)\nFloat\nPercentage of people with anxiety disorders in that country/region during that year\n\n\nDrug use disorders (%)\nFloat\nPercentage of people with drug use disorders in that country/region during that year\n\n\nDepression (%)\nFloat\nPercentage of people with depression in that country/region during that year\n\n\nAlcohol use disorders (%)\nFloat\nPercentage of people with alcohol use disorders in that country/region during that year\n\n\n\n\n\nData Frame 2: Prevalence of depression by age\n\n\n\n\n\n\n\n\nEntity\nString\nUnique identifier for each country or region included in the data set\n\n\nCode\nString\nUnique code associated with an Entity/Country or region included in the data set\n\n\nYear\nInteger\nYear that the data about that particular Entity/Country was collected\n\n\n20-24 years old (%)\nFloat\nPercentage of people between 20 and 24 years old with depression in that country/region during that year\n\n\n10-14 years old (%)\nFloat\nPercentage of people between 10 and 14 years old with depression in that country/region during that year\n\n\nAll ages (%)\nFloat\nPercentage of people from all ages with depression in that country/region during that year\n\n\n70+ years old (%)\nFloat\nPercentage of people above 70 years old with depression in that country/region during that year\n\n\n30-34 years old (%)\nFloat\nPercentage of people between 30 and 34 years old with depression in that country/region during that year\n\n\n15-19 years old (%)\nFloat\nPercentage of people between 15 and 19 years old with depression in that country/region during that year\n\n\n25-29 years old (%)\nFloat\nPercentage of people between 25 and 29 years old with depression in that country/region during that year\n\n\n50-69 years old (%)\nFloat\nPercentage of people between 50 and 69 years old with depression in that country/region during that year\n\n\nAge Standardized (%)\nFloat\nPercentage of people with depression in that country/region during that year after standardizing age\n\n\n15-49 years old (%)\nFloat\nPercentage of people between 15 and 49 years old with depression in that country/region during that year\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nThere are other datasets that are not used in this example analysis, but are included in the data file."
+  },
+  {
+    "objectID": "data_analysis.html#data-analysis",
+    "href": "data_analysis.html#data-analysis",
+    "title": "Data Analysis",
+    "section": "Data Analysis:",
+    "text": "Data Analysis:\n\n1: What is the distribution of different types of mental health disorders around the world?\n\nnames(df1) &lt;- str_extract(names(df1), \"^[^\\\\(]+\") # get rid of parenthesis in disorder names\n\nprevalence &lt;- df1 |&gt; \n  summarise(across(-c(1:3), ~ mean(.x, na.rm = TRUE))) |&gt;  # calculate average percent for each type of mental disorder\n  pivot_longer(\n    cols = everything(),\n    names_to = \"Mental Disorder Type\",\n    values_to = \"Average Percent\"\n  ) # change to long data\n\nprevalence &lt;- as.data.frame(prevalence) |&gt; \n  arrange(desc(`Average Percent`))\n\nggplot(prevalence, aes(y = reorder(`Mental Disorder Type`, `Average Percent`), x = `Average Percent`))+\n    geom_bar(stat = \"identity\", fill = \"skyblue\")+\n    labs(title = \"Prevalance of Mental Disorder Types Around World\", \n         subtitle = \"Common Mental Disorders are included (Year 1990-2017)\", \n         caption = \"Figure 1\", \n         y = NULL)+\n    theme_minimal()+\n    theme(plot.title = element_text(hjust = 0.5, face = \"bold\", size = 15), \n          plot.subtitle = element_text(hjust = 0.5))\n\n\n\n\n\n\n\n\n\n\nThere are several types of Anxiety Disorders: (Guy-Evans 2023)\n\nnames(df1) &lt;- str_remove(names(df1), \"disorders?\") # Remove 'disorder' or 'disorders' from column names\n  \ncor_matrix &lt;- round(cor(df1[,-c(1:3)]), 2)\n\npar(mar = c(5, 4, 3, 2)) # Adjust bottom, left, top, and right margins\n\ncorrplot.mixed(cor_matrix, \n               order = 'AOE', \n               tl.cex = 0.6, \n               sub =\"subtitle\",\n               title=\"Correlation Matrix of Common Mental Disorders Across World\", \n               mar = c(1, 0, 2.3, 0)\n               )\n\nmtext(\"Both size and numerica values of correlation are shown:\", # add subtitle\n        side = 3,                                                # Top side\n        line = 0.5,                                              # Position the subtitle\n        cex = 0.9                                                # Subtitle font size\n      )\n\nmtext(\"Figure 2\",            # add caption\n        side = 1,           # Bottom side\n        line = 4,           # Position the caption\n        adj = 1,            # Right-align the text\n        cex = 0.7           # Caption font size\n      )\n\n\n\n\n\n\n\n\nPlot instruction: (Taiyun Wei 2024)\n\n\n2: Will the risk of having depression prevalence change by age?\n\ndf2_continent &lt;- df2 |&gt; \n  mutate(continent = countrycode(Entity, origin = \"country.name\", destination = \"continent\")) |&gt;\n  filter(!is.na(continent))\n\nnames(df2_continent) &lt;- str_extract(names(df2_continent), \"^[^\\\\(]+\") # get rid of parenthesis in disorder name\nnames(df2_continent) &lt;- str_remove(names(df2_continent), \"years old\")\n  \ndf2_continent |&gt; \n  pivot_longer(\n    cols = c(4:5, 7:11, 13),\n    names_to = \"age_group\",\n    values_to = \"prevalence\"\n  )|&gt;\n  ggplot(aes(y = prevalence, x = age_group, color = age_group))+\n  geom_boxplot()+\n  labs(title = \"Average Prevalence of Depression by Age Group\", \n       subtitle = \"Averaged across region and year (1990-2017)\",\n       caption = \"Figure 3\", \n       x = \"Age Group\", \n       y = \"Prevalence\", \n       color = \"Age Group\")+\n  theme_minimal()+\n  theme(plot.title = element_text(hjust = 0.5, face = \"bold\", size = 15),\n        plot.subtitle = element_text(hjust = 0.5))\n\n\n\n\n\n\n\n\n\n\n3: How does the risk of depression differ in different regions of the world?\n\ndf2_continent |&gt; \n  group_by(continent, Year) |&gt;\n  summarise(across(c(4:10), ~ mean(.x, na.rm = TRUE))) |&gt;\n  select(-`All ages `) |&gt;\n  pivot_longer(\n    cols = -c(1:2),\n    names_to = \"Age\",\n    values_to = \"Avg_Percent\"\n  ) |&gt;\n  ggplot(aes(x = Year, y = Avg_Percent, color = Age))+\n    geom_line()+\n    facet_wrap(~continent, ncol = 3)+\n    theme_bw()+\n    labs(title = \"Depression Prevalence by Age Group across Continents\", \n         subtitle = \"Similar trend of prevalence in different areas of the world\", \n         caption = \"Figure 4\", \n         y = \"Average Prevalence Percent\")+\n    theme(plot.title = element_text(hjust = 0.5, face = \"bold\", size = 15),\n          plot.subtitle = element_text(hjust = 0.5))"
+  },
+  {
+    "objectID": "data_analysis.html#summary",
+    "href": "data_analysis.html#summary",
+    "title": "Data Analysis",
+    "section": "Summary:",
+    "text": "Summary:\n\nResults\nAccording to Figure 1, different types of mental disorders distribute differently in the world. After averaging across regions and years between 1990 and 2017, Anxiety Disorders and Depression are the two most prevalent disorders, followed by Alcohol Use Disorder and Drug Use Disorders, with Schizophrenia having the lowest prevalence.\nAccording to Figure 2, most common mental disorders are positively correlated to other types of mental disorders: Anxiety is strongly correlated with Eating Disorders, Bipolar Disorders, and Drug Use Disorder, and is moderately correlated with Bipolar Disorder; Schizophrenia is moderately correlated with Eating Disorders and Anxiety; and Drug Use Disorder is moderately correlated with Eating Disorders.\nAccording to Figure 3, the prevalence of Depression tend to increase as people age. Specifically, there is a significantly higher prevalence among people who are 50+ years old compared to people who are &lt;50 years old. Additionally, teenagers are less likely to have Depression compared to elder people.\nAccording to Figure 4, different regions around the world tend to have similar pattern of the prevalence of Depression among different age groups: from year 1990 to 2017, the prevalence of Depression is almost stable for all regions; elder people (50+ years old) have higher prevalence of Depression while teenagers have the lowest prevalence, and prevalence increase as people age.\n\n\nConclusion\nBased on the above results, the following conclusions could be made. First, different types of common mental health disorders have different prevalence, with Anxiety and Depression are the most prevalent, and schizophrenia being the least prevalent among the world population between year 1990 and 2017. In addition, people tend to have multiple mental disorders at the same time, showing a high risk of comorbidity among the world population. Second, people have higher risk of getting Depression as people age, especially after 50 years old. Third, the pattern that people have higher risk of getting Depression remains stable across different regions in the world."
+  },
+  {
+    "objectID": "data_analysis.html#functions-used",
+    "href": "data_analysis.html#functions-used",
+    "title": "Data Analysis",
+    "section": "Functions Used:",
+    "text": "Functions Used:\n\n\n\n\n\n\n\nPackages\nFunctions\n\n\n\n\ndplyr\nmutate, filter, group_by, select, across, summarise, arrange, desc\n\n\ntidyr\npivot_longer\n\n\nggplot2\nggplot\n\n\nstringr\nstr_extract, str_remove\n\n\nbase\npaste0, names, round\n\n\nutils\nwrite.csv, head\n\n\nreadxl\nexcel_sheets\n\n\nstats\ncor\n\n\ngraphics\npar, mar, mtext"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Jiadi(Jady) Li",
+    "section": "",
+    "text": "Hi! My name is Jiadi(Jady) Li, currently a first-year ScM student at The Johns Hopkins Bloomberg School of Public Health Biostatistics department. As an art person, I love playing the Guitar and Ukulele as well as painting in oil and designing postcards using colored ink during my spare time. Additionally, I enjoy spending time in the nature and taking photos of the natural world.\nThe following are pictures of my undergrad senior portrait and a postcard I designed:"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "As a master’s student majoring in Biostatistics at Johns Hopkins Bloomberg School of Public Health, I am interested in the application of biostatistics research in improving mental health services and treatments."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nJohns Hopkins University | Baltimore, MD\nScM. in Biostatistics | August 2024 - May 2026\nWake Forest University | Winston Salem, NC\nBS. in Statistics, BA in Psychology | August 2020 - May 2024"
+  },
+  {
+    "objectID": "about.html#work-experience",
+    "href": "about.html#work-experience",
+    "title": "About",
+    "section": "Work Experience",
+    "text": "Work Experience\nCharter Medical, LLC | Market Research Analyst Internship | June 2023 - August 2023\nDepartment of Statistics, Wake Forest University | Teaching Assistant | January 2023 - May 2023\nHealthkeeperS | Business Relationships Internship | June 2021 - August 2021"
+  },
+  {
+    "objectID": "about.html#honors-and-awards",
+    "href": "about.html#honors-and-awards",
+    "title": "About",
+    "section": "Honors and Awards",
+    "text": "Honors and Awards\nAward: Champion, American Statistical Association Data Fest at Wake Forest University (2023)\nHonors:\n\nDean’s List (all semesters)\nHonors in Statistics (2024)\nMagna Cum Laude (2024)\n\nCertificate:\n\nCertified Peer Educator\nCollaborative Institutional Training Initiative Program (2022.2 – 2027.2)"
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "About",
+    "section": "Skills",
+    "text": "Skills\nLanguages: English(working proficiency), Mandarin(native), Japanese(basic)\nSoftware Skills: Tableau, MS Power BI, Google Data Studio, MS Word, MS Excel, MS PowerPoint, MS Teams, Mind Node\nProgramming Language: R, SPSS, SAS, Python, SQL, Java, MATLAB, Maple"
+  }
+]

@@ -1,0 +1,9 @@
+---
+title: "Jiadi(Jady) Li"
+---
+
+Hi! My name is Jiadi(Jady) Li, currently a first-year ScM student at The Johns Hopkins Bloomberg School of Public Health Biostatistics department. As an art person, I love playing the Guitar and Ukulele as well as painting in oil and designing postcards using colored ink during my spare time. Additionally, I enjoy spending time in the nature and taking photos of the natural world.
+
+The following are pictures of my undergrad senior portrait and a postcard I designed:
+
+![](Jady.jpg){fig-align="center" width="30%" height="300px"} ![](postcard.jpg){fig-align="center" width="50%" height="300px"}
