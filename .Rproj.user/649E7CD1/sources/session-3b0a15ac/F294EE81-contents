@@ -1,0 +1,104 @@
+---
+title: "Statistical Programming Project1"
+date: 2024-10-30
+author: Jiadi(Jady)Li
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+## Part 1
+
+
+Write two paragraphs (4-6 sentences) max here answering one (or more) of the questions asked in the section above.
+
+Who are you?
+What makes you special?
+What do you stand for?
+For example, maybe you are passionate about open science and you prioritize publishing in open-access journals or publishing open source software.
+Who is your audience?
+This is important in terms of helping you understand your professional community as a scientist.
+What does the community value or not value?
+Does this align with your interests?
+What is your goal?
+This is a very personal question and there are no wrong answers.
+However, it is helpful to understand what your short-term and long-terms goals are.
+Some questions you might think about as you try to answer these two questions are: What motivates you?
+What projects have others complimented you on?
+Which projects can I spend hours on and not feel overwhelmed or drained?
+Fill in the following: "I want to be a leader in ... \<\>" "In 5-10 years, I want to ... \<\< insert thing you want to have accomplished \>\>"
+
+I am Jiadi(Jady) Li.
+I come from an interdisciplinary background in Psychology and Statistics.
+I also have a multicultural experience, with ability to speak fluent Mandarin, English, and basic Japanese.
+I can think from both the science side and the human side, have professional as well as empathy and humanity.
+I can think both from the micro side as well as the macro side.
+
+I am passionate about using AI to improve mental health services.
+My audience are
+
+## Part 2
+
+## Part 3
+
+1.  Use wget to download the students.csv file locally from here.
+    
+    $mkdir part3_data
+    
+    $cd part3_data
+    
+    $pwd
+    
+    $wget https://raw.githubusercontent.com/stephaniehicks/jhustatprogramming2024/refs/heads/main/projects/01-project/students.csv
+    
+    $ls 
+
+
+2.  Display the contents of the students.csv file using the cat command.
+    
+    $ cat students.csv
+
+3.  Display only the first 5 lines of the file using head to show the first few lines.
+    
+    $ head -n 5 students.csv
+
+4.  Display only the last 3 lines of the file using tail to show the last few lines.
+    
+    $ tail -n 3 students.csv
+
+5.  Count the number of lines in the file using the wc command to count the lines.
+    
+    Only return the number of lines without the file name: 
+    $ wc -l < students.csv 
+
+6.  Find all students who are taking "Math" as a subject using grep to filter lines with the subject "Math".
+    
+    $ grep "Math" students.csv
+
+7.  Find all female students using grep or awk to filter based on gender.
+    
+    -F means use comma to seperate columns: 
+    $ awk -F, '$4 == "F"' students.csv 
+
+8.  Sort the file by the students' ages in ascending order.
+    Use sort to order by the "Age" column.
+    
+    $ sort -t',' -k3 students.csv
+
+9.  Find the unique subjects listed in the file.
+    Use cut, sort, and uniq to extract unique subjects.
+    
+    $ grep -v 'Subject' students.csv | cut -d',' -f6 | sort | uniq
+
+
+10. Calculate the average grade of the students.
+    Use awk to sum the grades and divide by the number of students.
+    
+    $ tail -n +2 students.csv | awk -F',' '{sum += $5; count++} END {print sum / count}'
+
+11. Replace all occurrences of "Math" with "Mathematics" in the file.
+    Use sed to perform the replacement.
+    
+    $ sed 's/Math/Mathematics/' students.csv
+    
+    
