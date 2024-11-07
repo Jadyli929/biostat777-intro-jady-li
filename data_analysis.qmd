@@ -17,7 +17,7 @@ Please seek for external help from professionals if you are experiencing mental 
 
 ## Research Question:
 
-#### 1. What is the distribution of different types of mental health disorders around the world?
+#### 1. What is the distribution of different types of mental health disorders around world?
 
 #### 2. Will the risk of having depression prevalence change by age?
 
@@ -101,8 +101,8 @@ for(i in sheet_name){
   write.csv(data, csv_file, row.names = FALSE)
 } #create a seperate csv file for each sheet in the excel
 
-df1 <- read.csv("data/prevalence-by-mental-and-substa.csv", check.names = FALSE)
-df2 <- read.csv("data/prevalence-of-depression-by-age.csv", check.names = FALSE)
+df1 <- read.csv("/Users/jadyli/Desktop/Stat Programming/Project1 Quarto Website/data/prevalence-by-mental-and-substa.csv", check.names = FALSE)
+df2 <- read.csv("/Users/jadyli/Desktop/Stat Programming/Project1 Quarto Website/data/prevalence-of-depression-by-age.csv", check.names = FALSE)
 ```
 
 ### 1: What is the distribution of different types of mental health disorders around the world?
