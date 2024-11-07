@@ -40,7 +40,7 @@ Two datasets are analyzed here: Prevalence by mental and substance & Prevalence 
 #### Data Frame 1: [Prevalence by mental and substance](https://www.kaggle.com/datasets/thedevastator/uncover-global-trends-in-mental-health-disorder/data)
 
 |                               |           |                                                                                         |
-|:------------------------------|:---------:|-----------------------------------------------------------------------------------------|
+|:---------------|:--------------:|----------------------------------------|
 | **Entity**                    | *String*  | Unique identifier for each country or region included in the data set                   |
 | **Code**                      | *String*  | Unique code associated with an Entity/Country or region included in the data set        |
 | **Year**                      | *Integer* | Year that the data about that particular Entity/Country was collected                   |
@@ -55,7 +55,7 @@ Two datasets are analyzed here: Prevalence by mental and substance & Prevalence 
 #### Data Frame 2: [Prevalence of depression by age](https://data.world/vizzup/mental-health-depression-disorder-data/workspace/data-dictionary)
 
 |                          |           |                                                                                                          |
-|:-------------------------|:---------:|----------------------------------------------------------------------------------------------------------|
+|:--------------|:-------------:|------------------------------------------|
 | **Entity**               | *String*  | Unique identifier for each country or region included in the data set                                    |
 | **Code**                 | *String*  | Unique code associated with an Entity/Country or region included in the data set                         |
 | **Year**                 | *Integer* | Year that the data about that particular Entity/Country was collected                                    |
@@ -101,8 +101,8 @@ for(i in sheet_name){
   write.csv(data, csv_file, row.names = FALSE)
 } #create a seperate csv file for each sheet in the excel
 
-df1 <- read.csv("/Users/jadyli/Desktop/Stat Programming/Project1 Quarto Website/data/prevalence-by-mental-and-substa.csv", check.names = FALSE)
-df2 <- read.csv("/Users/jadyli/Desktop/Stat Programming/Project1 Quarto Website/data/prevalence-of-depression-by-age.csv", check.names = FALSE)
+df1 <- read.csv("data/prevalence-by-mental-and-substa.csv", check.names = FALSE)
+df2 <- read.csv("data/prevalence-of-depression-by-age.csv", check.names = FALSE)
 ```
 
 ### 1: What is the distribution of different types of mental health disorders around the world?
@@ -247,7 +247,7 @@ Based on the above results, the following conclusions could be made. First, diff
 ## Functions Used:
 
 | Packages     | Functions                                                          |
-|--------------|--------------------------------------------------------------------|
+|------------------|------------------------------------------------------|
 | **dplyr**    | mutate, filter, group_by, select, across, summarise, arrange, desc |
 | **tidyr**    | pivot_longer                                                       |
 | **ggplot2**  | ggplot                                                             |
